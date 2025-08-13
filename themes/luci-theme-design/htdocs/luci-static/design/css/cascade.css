@@ -29,11 +29,11 @@
 
 :root {
   --primary: #5ea69b;
-  --dark-primary: #5ea69b;
+  --dark-primary: #4f857e;
   --main-color: #09c;
   --header-bg: #09c;
   --header-color: #fff;
-  --bar-bg: #5e72e4;
+  --bar-bg: #5ea69b;
   --menu-bg-color: #fff;
   --menu-color: #5f6368;
   --menu-color-hover: #202124;
