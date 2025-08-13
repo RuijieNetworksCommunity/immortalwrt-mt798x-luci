@@ -7,13 +7,21 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-lucky
-PKG_VERSION:=2.1.1
+PKG_VERSION:=2.2.2
 PKG_RELEASE:=1
 
 LUCI_TITLE:=LuCI Support for  lucky 
-LUCI_DEPENDS:=+lucky
+LUCI_DEPENDS:=+lucky +luci-compat
 LUCI_PKGARCH:=all
 
+
+define Package/$(PKG_NAME)/install
+	$(INSTALL_BIN) ./root/usr/bin/luckyarch $(1)/usr/bin/luckyarch
+endef
+
 include $(TOPDIR)/feeds/luci/luci.mk
+
+
+
 
 # call BuildPackage - OpenWrt buildroot signature

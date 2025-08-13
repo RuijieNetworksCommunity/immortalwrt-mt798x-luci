@@ -2,6 +2,9 @@
 	"luci-app-lucky": {
 		"description": "Grant UCI access for luci-app-lucky",
 		"read": {
+			"ubus": {
+				"service": [ "list" ]
+			},
 			"uci": [ "lucky" ]
 		},
 		"write": {
