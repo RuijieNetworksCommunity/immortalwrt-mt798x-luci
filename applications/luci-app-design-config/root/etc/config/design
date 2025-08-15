@@ -3,8 +3,8 @@ config global
 	option dark_primary '#4f857e'
 	option blur '10'
 	option blur_dark '10'
-	option transparency '0.5'
-	option transparency_dark '0.5'
+	option transparency '0.3'
+	option transparency_dark '0.3'
 	option mode 'normal'
-	option online_wallpaper 'bing'
+	option online_wallpaper 'none'
 
