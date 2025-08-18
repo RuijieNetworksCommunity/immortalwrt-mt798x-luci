@@ -649,7 +649,7 @@ h5 {
   padding: 10px 0px;
   margin: 30px 0px 30px;
   transition: all .3s !important;
-  letter-spacing: .8rem
+  /* letter-spacing: .8rem */
 }
 
 .login-page .login-container .login-form .cbi-button-apply:hover,
