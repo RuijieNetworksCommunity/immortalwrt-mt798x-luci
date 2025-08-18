@@ -1,0 +1,20 @@
+{
+	"luci-app-design-config": {
+		"description": "Grant UCI access for luci-app-design-config",
+		"read": {
+			"file": {
+				"/www/luci-static/design/background/*": [ "list" ]
+			},
+			"ubus": {
+				"luci.design": [ "avail", "remove", "rename" ]
+			},
+			"uci": [ "design" ]
+		},
+		"write": {
+			"file": {
+				"/tmp/design_background.tmp": [ "write" ]
+			},
+			"uci": [ "design" ]
+		}
+	}
+}
