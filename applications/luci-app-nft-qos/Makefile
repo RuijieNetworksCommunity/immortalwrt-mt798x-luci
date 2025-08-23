@@ -1,18 +1,34 @@
+#Owned by DairyMan@Whirlpool
 #
-# Copyright (C) 2008-2014 The LuCI Team <luci@lists.subsignal.org>
-#
-# This is free software, licensed under the Apache License, Version 2.0 .
-#
-
+#Copyright GNU act.
 include $(TOPDIR)/rules.mk
 
-PKG_LICENSE:=Apache-2.0
+PKG_NAME:=luci-app-nft-qos
+PKG_VERSION:=1.000
+PKG_RELEASE:=1
 
-LUCI_TITLE:=QoS over Nftables
-LUCI_DEPENDS:=+luci-base +luci-compat +nft-qos
+PKG_MAINTAINER:=Created by DM/makefile by Cobia@whirlpool
+include $(INCLUDE_DIR)/package.mk
 
-PKG_MAINTAINER:=Rosy Song <rosysong@rosinson.com>
+define Package/luci-app-nft-qos
+  SECTION:=luci
+  CATEGORY:=LuCI
+  DEPENDS:=+nft-qos
+  SUBMENU:=3. Applications
+  TITLE:=support for NFT over QOS
+  PKGARCH:=all
+endef
 
-include ../../luci.mk
+define Package/luci-app-nft-qos/description
+  Helper scripts to enable NFT over QOS
+endef
 
-# call BuildPackage - OpenWrt buildroot signature
+
+define Build/Compile
+endef
+
+define Package/luci-app-nft-qos/install
+	$(CP) ./files/* $(1)/
+endef
+
+$(eval $(call BuildPackage,luci-app-nft-qos))
