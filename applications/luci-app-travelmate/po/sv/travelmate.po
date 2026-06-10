@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-28 09:00+0000\n"
-"Last-Translator: sergio <sergio+it@outerface.net>\n"
+"PO-Revision-Date: 2026-06-03 09:01+0000\n"
+"Last-Translator: Elias Sjögreen <eliassjogreen1@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 2026.6\n"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:77
 msgid "-- AP Selection --"
@@ -140,7 +140,7 @@ msgstr ""
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:414
 msgid "Connection Limit"
-msgstr ""
+msgstr "Anslutningsgräns"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:520
 msgid "Connection Start"
@@ -375,7 +375,7 @@ msgstr ""
 
 #: applications/luci-app-travelmate/root/usr/share/luci/menu.d/luci-app-travelmate.json:35
 msgid "Log View"
-msgstr "Logutsikt"
+msgstr "Logg vy"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:559
 msgid "MAC Address"
@@ -451,12 +451,12 @@ msgstr "På/Av"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:339
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:948
 msgid "Open"
-msgstr ""
+msgstr "Öppna"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:457
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:997
 msgid "Optional"
-msgstr ""
+msgstr "Valfritt"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:429
 msgid "Overall Timeout"

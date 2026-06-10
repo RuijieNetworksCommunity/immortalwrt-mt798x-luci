@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: LuCI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-04-20 09:40+0200\n"
-"PO-Revision-Date: 2026-02-26 14:29+0000\n"
+"PO-Revision-Date: 2026-06-05 19:02+0000\n"
 "Last-Translator: Matthaiks <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openwrt/luci/pl/"
 ">\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 2026.6\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1330
 msgid "!known (not known)"
@@ -64,7 +64,7 @@ msgstr ""
 "%s dodaje podsieci /24 i /96 żądającego odpowiednio dla żądających IPv4 i "
 "IPv6."
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:311
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:314
 msgid ""
 "%s is an independent project that aims to reduce latency of a connection "
 "over Yggdrasil network transparently, utilizing NAT traversal to bypass "
@@ -597,6 +597,10 @@ msgstr "ADSL2+ (G.992.5) Annex M"
 msgid "ANSI T1.413"
 msgstr "ANSI T1.413"
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:66
+msgid "AP Isolation"
+msgstr "Izolacja AP"
+
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:65
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:65
@@ -874,7 +878,7 @@ msgstr ""
 msgid "Add local domain suffix to names served from hosts files."
 msgstr "Dodaj lokalny sufiks domeny do nazw urządzeń z pliku hosts."
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:283
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:285
 msgid "Add multicast rule"
 msgstr "Dodaj regułę multiemisji"
 
@@ -940,7 +944,7 @@ msgstr ""
 msgid "Additional Peers"
 msgstr "Dodatkowe peery"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:376
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:379
 msgid "Additional configuration settings (in TOML format)."
 msgstr "Dodatkowe ustawienia konfiguracyjne (w formacie TOML)."
 
@@ -1081,7 +1085,7 @@ msgstr ""
 msgid "Allocate IPs sequentially"
 msgstr "Przydzielaj adresy IP po kolei"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:355
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:358
 msgid "Allocate listen addresses"
 msgstr "Przydziel adresy nasłuchiwania"
 
@@ -1094,7 +1098,7 @@ msgstr ""
 msgid "Allow AP mode to disconnect STAs based on low ACK condition"
 msgstr "Zezwól, aby tryb AP rozłączał urządzenia przy niskim stanie ACK"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:356
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:359
 msgid ""
 "Allow Yggdrasil Jumper to configure Yggdrasil with proper listen address and "
 "random port automatically."
@@ -1339,7 +1343,7 @@ msgstr ""
 "Przypisz części prefiksu za pomocą tego szesnastkowego identyfikatora "
 "subprefiksu dla tego interfejsu."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2420
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2421
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:387
 msgid "Associated Stations"
 msgstr "Podłączone urządzenia"
@@ -1408,7 +1412,7 @@ msgstr "Autorytatywny"
 msgid "Authorization Required"
 msgstr "Wymagana autoryzacja"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:365
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:368
 msgid "Autofill listen addresses"
 msgstr "Automatyczne uzupełnianie adresów nasłuchiwania"
 
@@ -1567,6 +1571,10 @@ msgstr "Urządzenie Batman"
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_hardif.js:10
 msgid "Batman Interface"
 msgstr "Interfejs Batman"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:11
+msgid "Batman VLAN Interface"
+msgstr "Interfejs VLAN Batman"
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:81
 msgid ""
@@ -1823,7 +1831,7 @@ msgstr ""
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:174
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2294
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:79
@@ -1993,7 +2001,7 @@ msgstr "Szerokość kanału"
 msgid "Check filesystems before mount"
 msgstr "Sprawdź system plików przed zamontowaniem"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 msgid "Check this option to delete the existing networks from this radio."
 msgstr "Zaznacz opcję, jeśli chcesz usunąć istniejące sieci z tego radia."
 
@@ -2011,7 +2019,7 @@ msgid "Choose mtdblock"
 msgstr "Wybierz mtdblock"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:576
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2284
 msgid ""
 "Choose the firewall zone you want to assign to this interface. Select "
 "<em>unspecified</em> to remove the interface from the associated zone or "
@@ -2093,7 +2101,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:64
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2418
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2419
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:435
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:356
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:359
@@ -2350,7 +2358,7 @@ msgid "Create"
 msgstr "Utwórz"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:576
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2284
 msgid "Create / Assign firewall-zone"
 msgstr "Utwórz/Przypisz strefę zapory"
 
@@ -2589,7 +2597,7 @@ msgstr "Dane przesłane"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:186
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:199
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:159
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:346
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:349
 msgid "Debug"
 msgstr "Debugowanie"
 
@@ -2763,6 +2771,7 @@ msgstr "Strefa docelowa"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:281
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:355
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:391
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:48
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:29
 msgid "Device"
 msgstr "Urządzenie"
@@ -2809,7 +2818,7 @@ msgid "Device unreachable! Still waiting for device..."
 msgstr "Urządzenie nieosiągalne! Czekam na urządzenie..."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1378
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:287
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:289
 msgid "Devices"
 msgstr "Urządzenia"
 
@@ -3406,6 +3415,25 @@ msgstr "Włącz <abbr title=\"Spanning Tree Protocol\">STP</abbr>"
 msgid "Enable <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr>"
 msgstr "Włącz <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr>"
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:67
+msgid ""
+"Enable AP Isolation to isolate wireless clients connected to this Batman "
+"VLAN on this AP from wireless clients connected to this Batman VLAN on "
+"different APs. To isolate all wireless clients connected to this Batman VLAN "
+"on all APs from each other, be sure to enable this option on all APs, and be "
+"sure to enable additional wireless client isolation options ('isolate' and "
+"'bridge_isolate') for all associated wireless interfaces on all APs."
+msgstr ""
+"Włącz izolację punktów dostępu, aby odizolować bezprzewodowe klienty "
+"podłączone do tej sieci VLAN Batman na tym punkcie dostępu od klientów "
+"bezprzewodowych podłączonych do tej sieci VLAN Batman na różnych punktach "
+"dostępu. Aby odizolować od siebie wszystkie klienty bezprzewodowe podłączone "
+"do tej sieci VLAN Batman na wszystkich punktach dostępu, upewnij się, że ta "
+"opcja jest włączona na wszystkich punktach dostępu, a także upewnij się, że "
+"włączone są dodatkowe opcje izolacji klientów bezprzewodowych („isolate” i "
+"„bridge_isolate”) dla wszystkich powiązanych interfejsów bezprzewodowych na "
+"wszystkich punktach dostępu."
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:190
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:412
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:418
@@ -3482,7 +3510,7 @@ msgstr "Włącz funkcjonalność VLAN"
 msgid "Enable WPS pushbutton, requires WPA(2)-PSK/WPA3-SAE"
 msgstr "Włącz przycisk WPS, wymaga WPA(2)‑PSK/WPA3‑SAE"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:319
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:322
 msgid "Enable Yggdrasil Jumper"
 msgstr "Włącz Yggdrasil-Jumper"
 
@@ -3726,7 +3754,7 @@ msgstr "Usuwanie..."
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:48
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:190
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:156
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:343
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:346
 msgid "Error"
 msgstr "Błąd"
 
@@ -3897,7 +3925,7 @@ msgstr "Dodatkowe rejestrowanie DHCP"
 msgid "Extra SSH command options"
 msgstr "Dodatkowe opcje SSH"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:375
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:378
 msgid "Extra config"
 msgstr "Dodatkowa konfiguracja"
 
@@ -4714,7 +4742,7 @@ msgid "Hop Penalty"
 msgstr "Kara przeskoku"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:58
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2412
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2413
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:134
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:237
 msgid "Host"
@@ -5219,6 +5247,14 @@ msgstr ""
 "Nie ma to wpływu na wychodzące połączenia równorzędne ani na łącza lokalne "
 "równorzędne wykryte za pośrednictwem multiemisji."
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:49
+msgid ""
+"If not listed, please open the drop-down list and type in the name of the "
+"Batman VLAN device in the 'custom' field."
+msgstr ""
+"Jeśli nie ma go na liście, otwórz listę rozwijaną i wpisz nazwę urządzenia "
+"VLAN Batman w polu „własne”."
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1128
 msgid ""
 "If set, downstream subnets are only allocated from the given IPv6 prefix "
@@ -5430,7 +5466,7 @@ msgstr "Wybrano kanał do użytku wyłącznie w pomieszczeniach"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:51
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:187
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:158
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:345
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:348
 msgid "Info"
 msgstr "Info"
 
@@ -5532,7 +5568,7 @@ msgstr "Instancja \"%q\""
 msgid "Instance Details"
 msgstr "Szczegóły instancji"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2279
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2280
 msgid ""
 "Instead of joining any network with a matching SSID, only connect to the "
 "BSSID <code>%h</code>."
@@ -5633,6 +5669,10 @@ msgstr "International Mobile Equipment Identity (IMEI)"
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:139
 msgid "International Mobile Subscriber Identity"
 msgstr "International Mobile Subscriber Identity (IMSI)"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:138
+msgid "Interval"
+msgstr "Interwał"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1076
 msgid ""
@@ -5775,7 +5815,7 @@ msgstr ""
 "Wygląda na to, że próbujesz wgrać obraz, który nie mieści się w pamięci "
 "flash, sprawdź plik obrazu!"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:312
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:315
 msgid ""
 "It periodically probes for active sessions and automatically establishes "
 "direct peerings over internet with remote nodes running Yggdrasil Jumper "
@@ -5791,7 +5831,7 @@ msgstr ""
 msgid "JavaScript required!"
 msgstr "Wymagany JavaScript!"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2052
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2053
 msgid "Join Network"
 msgstr "Połącz z siecią"
 
@@ -5799,7 +5839,7 @@ msgstr "Połącz z siecią"
 msgid "Join Network: Wireless Scan"
 msgstr "Przyłącz do sieci: Skanowanie Wi-Fi"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2287
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2288
 msgid "Joining Network: %q"
 msgstr "Przyłączanie do sieci: %q"
 
@@ -5807,7 +5847,7 @@ msgstr "Przyłączanie do sieci: %q"
 msgid "Jump to rule"
 msgstr "Przejdź do reguły"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:303
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:306
 msgid "Jumper"
 msgstr "Jumper"
 
@@ -6194,7 +6234,7 @@ msgstr ""
 "Ogranicz nasłuchiwanie do określonych interfejsów oraz pętli zwrotnej, jeśli "
 "nie jest jawnie wykluczona."
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:292
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:295
 msgid "Listen to multicast beacons"
 msgstr "Nasłuchuj sygnałów multicastowych"
 
@@ -6228,7 +6268,7 @@ msgid "Load configuration…"
 msgstr "Wczytaj konfigurację…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1299
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2216
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2217
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:167
 msgid "Loading data…"
 msgstr "Ładowanie danych…"
@@ -6363,7 +6403,7 @@ msgstr "Zapytania lokalizujące"
 msgid "Location Area Code"
 msgstr "Kod Obszaru Lokalizacyjnego (LAC)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2279
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2280
 msgid "Lock to BSSID"
 msgstr "Zablokuj na BSSID"
 
@@ -6404,7 +6444,7 @@ msgstr "Zaloguj"
 msgid "Log in…"
 msgstr "Zaloguj się…"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:340
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:343
 msgid "Log level"
 msgstr "Poziom rejestrowania"
 
@@ -6482,7 +6522,7 @@ msgstr "MAC VLAN"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1111
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:41
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1225
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2411
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2412
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:47
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:89
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:236
@@ -7016,7 +7056,7 @@ msgstr "Tryb multicast"
 msgid "Multicast routing"
 msgstr "Trasowanie multicast"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:281
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:283
 msgid "Multicast rules"
 msgstr "Reguły multiemisji"
 
@@ -7089,14 +7129,14 @@ msgstr "Lista serwerów NTP"
 msgid "Name"
 msgstr "Nazwa"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2256
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2257
 msgid ""
 "Name for OpenWrt network configuration. (No relation to wireless network "
 "name/SSID)"
 msgstr ""
 "Nazwa konfiguracji sieci OpenWrt. (Brak związku z nazwą sieci Wi-Fi/SSID)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2255
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2256
 msgid "Name of the new network"
 msgstr "Nazwa nowej sieci"
 
@@ -7142,7 +7182,7 @@ msgstr "Nazwa tablicy netfilter"
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1081
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2410
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2411
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:427
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:54
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:235
@@ -7161,7 +7201,7 @@ msgstr "Tryb sieci"
 msgid "Network Registration"
 msgstr "Rejestracja sieciowa"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2250
 msgid "Network SSID"
 msgstr "Sieć SSID"
 
@@ -7610,7 +7650,7 @@ msgstr "Uzyskaj adres IPv6"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/none.js:19
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:87
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:342
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:345
 msgid "Off"
 msgstr "Wyłączone"
 
@@ -8264,7 +8304,7 @@ msgstr ""
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:146
 #: protocols/luci-proto-openfortivpn/htdocs/luci-static/resources/protocol/openfortivpn.js:103
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:58
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:298
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:301
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:19
 msgid "Password"
 msgstr "Hasło"
@@ -8408,7 +8448,7 @@ msgstr "Adresy peerów"
 msgid "Peer device name"
 msgstr "Nazwa urządzenia peera"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:279
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:280
 msgid "Peer interface"
 msgstr "Interfejs peera"
 
@@ -8483,6 +8523,13 @@ msgstr "Pktw."
 msgid "Please enter your username and password."
 msgstr "Wprowadź nazwę użytkownika i hasło."
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:63
+msgid ""
+"Please open the drop-down list and select or type in the name of the Batman "
+"VLAN device."
+msgstr ""
+"Otwórz listę rozwijaną i wybierz lub wpisz nazwę urządzenia VLAN Batman."
+
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4632
 msgid "Please select the file to upload."
 msgstr "Wybierz plik do przesłania."
@@ -8500,7 +8547,7 @@ msgstr "Polityka: <strong>%h</strong> (%h)"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:31
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:223
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:223
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:294
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:297
 msgid "Port"
 msgstr "Port"
 
@@ -8879,7 +8926,7 @@ msgstr "RX"
 msgid "RX Rate"
 msgstr "Szybkość RX"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2414
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2415
 msgid "RX Rate / TX Rate"
 msgstr "Szybkość: RX/TX"
 
@@ -9178,7 +9225,7 @@ msgstr "Usuń adres podsieci przed przekazaniem zapytania"
 msgid "Removes records of the specified type(s) from answers."
 msgstr "Usuwa rekordy określonych typów z odpowiedzi."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 msgid "Replace wireless configuration"
 msgstr "Zamień konfigurację Wi-Fi"
 
@@ -9397,7 +9444,7 @@ msgstr "Przywróć"
 msgid "Restore backup"
 msgstr "Przywróć kopię zapasową"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:366
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:369
 msgid ""
 "Retrieve the listener addresses from the Yggdrasil interface configuration."
 msgstr "Pobierz adresy nasłuchujących z konfiguracji interfejsu Yggdrasil."
@@ -9790,6 +9837,10 @@ msgstr ""
 "jest nieprawidłowy. Użyj, gdy masz pewność, że firmware jest poprawny i "
 "przeznaczony dla tego urządzenia!"
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:52
+msgid "Select Batman VLAN device…"
+msgstr "Wybierz urządzenie VLAN Batman…"
+
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2983
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3182
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3358
@@ -9827,7 +9878,7 @@ msgstr ""
 "Wysyłaj żądania echa LCP w określonych odstępach czasu w sekundach, "
 "skuteczne tylko w połączeniu z progiem błędu"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:290
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:293
 msgid "Send multicast beacon"
 msgstr "Wysyłaj sygnał nawigacyjny multiemisji"
 
@@ -10000,7 +10051,7 @@ msgstr "Wyłącz ten interfejs"
 msgid "Signal"
 msgstr "Sygnał"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2413
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2414
 msgid "Signal / Noise"
 msgstr "Sygnał/Szum"
 
@@ -10369,7 +10420,7 @@ msgstr ""
 "Określa liczbę powiadomień peerów, które zostaną wysłane po wystąpieniu "
 "zdarzenia przełączenia awaryjnego"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "Specify the secret encryption key here."
 msgstr "Określ tajny klucz szyfrowania."
 
@@ -10406,7 +10457,7 @@ msgstr "Uruchom WPS"
 msgid "Start priority"
 msgstr "Priorytet uruchamiania"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2072
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2073
 msgid "Start refresh"
 msgstr "Rozpocznij odświeżanie"
 
@@ -10488,7 +10539,7 @@ msgid "Stop WPS"
 msgstr "Zatrzymaj WPS"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1982
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2077
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2078
 msgid "Stop refresh"
 msgstr "Zatrzymaj odświeżanie"
 
@@ -10509,7 +10560,7 @@ msgid "Strong"
 msgstr "Silne"
 
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:61
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2298
 msgid "Submit"
 msgstr "Prześlij"
 
@@ -10912,7 +10963,7 @@ msgstr "Adres, pod którym można osiągnąć %s"
 msgid "The algorithm that is used to discover mesh routes"
 msgstr "Algorytm, który jest używany do wykrywania tras w sieci mesh"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2257
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2258
 msgid ""
 "The allowed characters are: <code>A-Z</code>, <code>a-z</code>, <code>0-9</"
 "code> and <code>_</code>"
@@ -10932,7 +10983,7 @@ msgstr ""
 "części, ale nadal oznacza żądanie, tak że żaden nadrzędny serwer nazw nie "
 "doda informacji o adresie klienta."
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:320
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:323
 msgid ""
 "The checkbox cannot be modified unless the <code>yggdrasil-jumper</code> "
 "package is installed."
@@ -10945,7 +10996,7 @@ msgid "The configuration file could not be loaded due to the following error:"
 msgstr ""
 "Plik konfiguracyjny nie mógł zostać załadowany z powodu następującego błędu:"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2250
 msgid ""
 "The correct SSID must be manually specified when joining a hidden wireless "
 "network"
@@ -11151,7 +11202,7 @@ msgid "The netfilter components below are only regarded when running fw4."
 msgstr ""
 "Poniższe komponenty netfilter są uwzględniane tylko podczas uruchamiania fw4."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2263
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2264
 msgid "The network name is already used"
 msgstr "Nazwa sieci jest już w użyciu"
 
@@ -11605,7 +11656,7 @@ msgstr "Ton"
 msgid "Total Available"
 msgstr "Łącznie dostępna"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:347
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:350
 msgid "Trace"
 msgstr "Śledzenie"
 
@@ -12432,7 +12483,7 @@ msgstr "Otwarty system WEP"
 msgid "WEP Shared Key"
 msgstr "Współdzielony klucz WEP"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "WEP passphrase"
 msgstr "Hasło WEP"
 
@@ -12452,7 +12503,7 @@ msgstr "Tryb uśpienia WNM"
 msgid "WNM Sleep Mode Fixes"
 msgstr "Poprawki trybu uśpienia WNM"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "WPA passphrase"
 msgstr "Hasło WPA"
 
@@ -12472,7 +12523,7 @@ msgstr "Status WPS"
 msgid "Waiting for device..."
 msgstr "Oczekiwanie na urządzenie..."
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:344
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:347
 msgid "Warn"
 msgstr "Uwaga"
 
@@ -12980,7 +13031,7 @@ msgstr "półdupleks"
 msgid "hexadecimal encoded value"
 msgstr "wartość zakodowana szesnastkowo"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2044
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2045
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/channel_analysis.js:374
 msgid "hidden"
 msgstr "ukryty"
@@ -13053,6 +13104,10 @@ msgstr "konfiguracja zarządzana (M)"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1469
 msgid "medium security"
 msgstr "średnie bezpieczeństwo"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:138
+msgid "milliseconds"
+msgstr "milisekundy"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:75
 msgctxt "nft unit"
